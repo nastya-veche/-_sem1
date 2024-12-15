@@ -1,0 +1,1 @@
+/usr/bin/c++ -pedantic -Wall -Wextra -Wno-unused-parameter -Wno-cast-function-type -Wno-switch -g CMakeFiles/calculator.dir/calculator.cpp.o CMakeFiles/calculator.dir/token.cpp.o CMakeFiles/calculator.dir/variable.cpp.o -o calculator 

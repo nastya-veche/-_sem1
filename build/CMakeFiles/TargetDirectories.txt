@@ -1,0 +1,13 @@
+/home/anastasia/c+_sem1/build/CMakeFiles/edit_cache.dir
+/home/anastasia/c+_sem1/build/CMakeFiles/rebuild_cache.dir
+/home/anastasia/c+_sem1/build/CMakeFiles/list_install_components.dir
+/home/anastasia/c+_sem1/build/CMakeFiles/install.dir
+/home/anastasia/c+_sem1/build/CMakeFiles/install/local.dir
+/home/anastasia/c+_sem1/build/CMakeFiles/install/strip.dir
+/home/anastasia/c+_sem1/build/calculator/CMakeFiles/calculator.dir
+/home/anastasia/c+_sem1/build/calculator/CMakeFiles/edit_cache.dir
+/home/anastasia/c+_sem1/build/calculator/CMakeFiles/rebuild_cache.dir
+/home/anastasia/c+_sem1/build/calculator/CMakeFiles/list_install_components.dir
+/home/anastasia/c+_sem1/build/calculator/CMakeFiles/install.dir
+/home/anastasia/c+_sem1/build/calculator/CMakeFiles/install/local.dir
+/home/anastasia/c+_sem1/build/calculator/CMakeFiles/install/strip.dir

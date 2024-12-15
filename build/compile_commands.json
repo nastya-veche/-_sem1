@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/anastasia/c+_sem1/build/calculator",
+  "command": "/usr/bin/c++  -I/home/anastasia/c+_sem1/lib -I/home/anastasia/c+_sem1/include -pedantic -Wall -Wextra -Wno-unused-parameter -Wno-cast-function-type -Wno-switch -g -o CMakeFiles/calculator.dir/calculator.cpp.o -c /home/anastasia/c+_sem1/calculator/calculator.cpp",
+  "file": "/home/anastasia/c+_sem1/calculator/calculator.cpp"
+},
+{
+  "directory": "/home/anastasia/c+_sem1/build/calculator",
+  "command": "/usr/bin/c++  -I/home/anastasia/c+_sem1/lib -I/home/anastasia/c+_sem1/include -pedantic -Wall -Wextra -Wno-unused-parameter -Wno-cast-function-type -Wno-switch -g -o CMakeFiles/calculator.dir/token.cpp.o -c /home/anastasia/c+_sem1/calculator/token.cpp",
+  "file": "/home/anastasia/c+_sem1/calculator/token.cpp"
+},
+{
+  "directory": "/home/anastasia/c+_sem1/build/calculator",
+  "command": "/usr/bin/c++  -I/home/anastasia/c+_sem1/lib -I/home/anastasia/c+_sem1/include -pedantic -Wall -Wextra -Wno-unused-parameter -Wno-cast-function-type -Wno-switch -g -o CMakeFiles/calculator.dir/variable.cpp.o -c /home/anastasia/c+_sem1/calculator/variable.cpp",
+  "file": "/home/anastasia/c+_sem1/calculator/variable.cpp"
+}
+]
