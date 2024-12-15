@@ -12,6 +12,6 @@ include_directories(
     ${INCLUDE_DIR}
 )
 
-add_subdirectory(calculator)
+add_subdirectory(lsm)
 
 project(balls)

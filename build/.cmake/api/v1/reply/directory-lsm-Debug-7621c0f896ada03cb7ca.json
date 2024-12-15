@@ -7,7 +7,7 @@
 		],
 		"files" : 
 		[
-			"calculator/CMakeLists.txt"
+			"lsm/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -17,7 +17,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 23,
+				"line" : 19,
 				"parent" : 0
 			}
 		]
@@ -30,16 +30,16 @@
 			"destination" : "bin",
 			"paths" : 
 			[
-				"calculator/calculator"
+				"lsm/least_squares_method"
 			],
-			"targetId" : "calculator::@5f95e9f2bb1716c87126",
+			"targetId" : "least_squares_method::@56f3d99bb5b730d7f548",
 			"targetIndex" : 0,
 			"type" : "target"
 		}
 	],
 	"paths" : 
 	{
-		"build" : "calculator",
-		"source" : "calculator"
+		"build" : "lsm",
+		"source" : "lsm"
 	}
 }

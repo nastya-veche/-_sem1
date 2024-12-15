@@ -20,16 +20,16 @@
 					"source" : "."
 				},
 				{
-					"build" : "calculator",
+					"build" : "lsm",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-calculator-Debug-9b3bc389b59192b5bc84.json",
+					"jsonFile" : "directory-lsm-Debug-7621c0f896ada03cb7ca.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.20"
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 1,
-					"source" : "calculator",
+					"source" : "lsm",
 					"targetIndexes" : 
 					[
 						0
@@ -55,7 +55,7 @@
 					[
 						1
 					],
-					"name" : "calculator",
+					"name" : "least_squares_method",
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
@@ -67,9 +67,9 @@
 			[
 				{
 					"directoryIndex" : 1,
-					"id" : "calculator::@5f95e9f2bb1716c87126",
-					"jsonFile" : "target-calculator-Debug-b368b98a1c62646dab34.json",
-					"name" : "calculator",
+					"id" : "least_squares_method::@56f3d99bb5b730d7f548",
+					"jsonFile" : "target-least_squares_method-Debug-03e9e6622b90da0f72a0.json",
+					"name" : "least_squares_method",
 					"projectIndex" : 1
 				}
 			]

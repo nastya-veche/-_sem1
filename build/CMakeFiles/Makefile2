@@ -63,57 +63,57 @@ CMAKE_BINARY_DIR = /home/anastasia/c+_sem1/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: calculator/all
+all: lsm/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall: calculator/preinstall
+preinstall: lsm/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: calculator/clean
+clean: lsm/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory calculator
+# Directory level rules for directory lsm
 
 # Recursive "all" directory target.
-calculator/all: calculator/CMakeFiles/calculator.dir/all
-.PHONY : calculator/all
+lsm/all: lsm/CMakeFiles/least_squares_method.dir/all
+.PHONY : lsm/all
 
 # Recursive "preinstall" directory target.
-calculator/preinstall:
-.PHONY : calculator/preinstall
+lsm/preinstall:
+.PHONY : lsm/preinstall
 
 # Recursive "clean" directory target.
-calculator/clean: calculator/CMakeFiles/calculator.dir/clean
-.PHONY : calculator/clean
+lsm/clean: lsm/CMakeFiles/least_squares_method.dir/clean
+.PHONY : lsm/clean
 
 #=============================================================================
-# Target rules for target calculator/CMakeFiles/calculator.dir
+# Target rules for target lsm/CMakeFiles/least_squares_method.dir
 
 # All Build rule for target.
-calculator/CMakeFiles/calculator.dir/all:
-	$(MAKE) $(MAKESILENT) -f calculator/CMakeFiles/calculator.dir/build.make calculator/CMakeFiles/calculator.dir/depend
-	$(MAKE) $(MAKESILENT) -f calculator/CMakeFiles/calculator.dir/build.make calculator/CMakeFiles/calculator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anastasia/c+_sem1/build/CMakeFiles --progress-num=1,2,3,4 "Built target calculator"
-.PHONY : calculator/CMakeFiles/calculator.dir/all
+lsm/CMakeFiles/least_squares_method.dir/all:
+	$(MAKE) $(MAKESILENT) -f lsm/CMakeFiles/least_squares_method.dir/build.make lsm/CMakeFiles/least_squares_method.dir/depend
+	$(MAKE) $(MAKESILENT) -f lsm/CMakeFiles/least_squares_method.dir/build.make lsm/CMakeFiles/least_squares_method.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/anastasia/c+_sem1/build/CMakeFiles --progress-num=1,2 "Built target least_squares_method"
+.PHONY : lsm/CMakeFiles/least_squares_method.dir/all
 
 # Build rule for subdir invocation for target.
-calculator/CMakeFiles/calculator.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anastasia/c+_sem1/build/CMakeFiles 4
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 calculator/CMakeFiles/calculator.dir/all
+lsm/CMakeFiles/least_squares_method.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/anastasia/c+_sem1/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lsm/CMakeFiles/least_squares_method.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/anastasia/c+_sem1/build/CMakeFiles 0
-.PHONY : calculator/CMakeFiles/calculator.dir/rule
+.PHONY : lsm/CMakeFiles/least_squares_method.dir/rule
 
 # Convenience name for target.
-calculator: calculator/CMakeFiles/calculator.dir/rule
-.PHONY : calculator
+least_squares_method: lsm/CMakeFiles/least_squares_method.dir/rule
+.PHONY : least_squares_method
 
 # clean rule for target.
-calculator/CMakeFiles/calculator.dir/clean:
-	$(MAKE) $(MAKESILENT) -f calculator/CMakeFiles/calculator.dir/build.make calculator/CMakeFiles/calculator.dir/clean
-.PHONY : calculator/CMakeFiles/calculator.dir/clean
+lsm/CMakeFiles/least_squares_method.dir/clean:
+	$(MAKE) $(MAKESILENT) -f lsm/CMakeFiles/least_squares_method.dir/build.make lsm/CMakeFiles/least_squares_method.dir/clean
+.PHONY : lsm/CMakeFiles/least_squares_method.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/anastasia/c+_sem1/build/CMakeFiles /home/anastasia/c+_sem1/build//CMakeFiles/progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	cd /home/anastasia/c+_sem1/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/anastasia/c+_sem1/build/CMakeFiles /home/anastasia/c+_sem1/build/least_squares_method//CMakeFiles/progress.marks
+	cd /home/anastasia/c+_sem1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 least_squares_method/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/anastasia/c+_sem1/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
+	cd /home/anastasia/c+_sem1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 least_squares_method/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,31 +148,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /home/anastasia/c+_sem1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 least_squares_method/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /home/anastasia/c+_sem1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 least_squares_method/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/anastasia/c+_sem1/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named least_squares_method
+# Convenience name for target.
+least_squares_method/CMakeFiles/least_squares_method.dir/rule:
+	cd /home/anastasia/c+_sem1/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 least_squares_method/CMakeFiles/least_squares_method.dir/rule
+.PHONY : least_squares_method/CMakeFiles/least_squares_method.dir/rule
 
-# Build rule for target.
-least_squares_method: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 least_squares_method
+# Convenience name for target.
+least_squares_method: least_squares_method/CMakeFiles/least_squares_method.dir/rule
 .PHONY : least_squares_method
 
 # fast build rule for target.
 least_squares_method/fast:
-	$(MAKE) $(MAKESILENT) -f lsm/CMakeFiles/least_squares_method.dir/build.make lsm/CMakeFiles/least_squares_method.dir/build
+	cd /home/anastasia/c+_sem1/build && $(MAKE) $(MAKESILENT) -f least_squares_method/CMakeFiles/least_squares_method.dir/build.make least_squares_method/CMakeFiles/least_squares_method.dir/build
 .PHONY : least_squares_method/fast
+
+least_squares.o: least_squares.cpp.o
+.PHONY : least_squares.o
+
+# target to build an object file
+least_squares.cpp.o:
+	cd /home/anastasia/c+_sem1/build && $(MAKE) $(MAKESILENT) -f least_squares_method/CMakeFiles/least_squares_method.dir/build.make least_squares_method/CMakeFiles/least_squares_method.dir/least_squares.cpp.o
+.PHONY : least_squares.cpp.o
+
+least_squares.i: least_squares.cpp.i
+.PHONY : least_squares.i
+
+# target to preprocess a source file
+least_squares.cpp.i:
+	cd /home/anastasia/c+_sem1/build && $(MAKE) $(MAKESILENT) -f least_squares_method/CMakeFiles/least_squares_method.dir/build.make least_squares_method/CMakeFiles/least_squares_method.dir/least_squares.cpp.i
+.PHONY : least_squares.cpp.i
+
+least_squares.s: least_squares.cpp.s
+.PHONY : least_squares.s
+
+# target to generate assembly for a file
+least_squares.cpp.s:
+	cd /home/anastasia/c+_sem1/build && $(MAKE) $(MAKESILENT) -f least_squares_method/CMakeFiles/least_squares_method.dir/build.make least_squares_method/CMakeFiles/least_squares_method.dir/least_squares.cpp.s
+.PHONY : least_squares.cpp.s
 
 # Help Target
 help:
@@ -187,6 +212,9 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... least_squares_method"
+	@echo "... least_squares.o"
+	@echo "... least_squares.i"
+	@echo "... least_squares.s"
 .PHONY : help
 
 
@@ -198,6 +226,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/anastasia/c+_sem1/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
