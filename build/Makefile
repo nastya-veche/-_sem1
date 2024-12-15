@@ -162,17 +162,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named least_squares_method
+# Target rules for targets named logic_shapes
 
 # Build rule for target.
-least_squares_method: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 least_squares_method
-.PHONY : least_squares_method
+logic_shapes: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 logic_shapes
+.PHONY : logic_shapes
 
 # fast build rule for target.
-least_squares_method/fast:
-	$(MAKE) $(MAKESILENT) -f lsm/CMakeFiles/least_squares_method.dir/build.make lsm/CMakeFiles/least_squares_method.dir/build
-.PHONY : least_squares_method/fast
+logic_shapes/fast:
+	$(MAKE) $(MAKESILENT) -f logic_elements/CMakeFiles/logic_shapes.dir/build.make logic_elements/CMakeFiles/logic_shapes.dir/build
+.PHONY : logic_shapes/fast
 
 # Help Target
 help:
@@ -186,7 +186,7 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... least_squares_method"
+	@echo "... logic_shapes"
 .PHONY : help
 
 

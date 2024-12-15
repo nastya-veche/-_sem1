@@ -12,6 +12,6 @@ include_directories(
     ${INCLUDE_DIR}
 )
 
-add_subdirectory(lsm)
+add_subdirectory(logic_elements)
 
 project(balls)

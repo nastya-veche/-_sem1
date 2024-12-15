@@ -20,16 +20,16 @@
 					"source" : "."
 				},
 				{
-					"build" : "lsm",
+					"build" : "logic_elements",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-lsm-Debug-7621c0f896ada03cb7ca.json",
+					"jsonFile" : "directory-logic_elements-Debug-86e10c64e080919c33ca.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.20"
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 1,
-					"source" : "lsm",
+					"source" : "logic_elements",
 					"targetIndexes" : 
 					[
 						0
@@ -55,7 +55,7 @@
 					[
 						1
 					],
-					"name" : "least_squares_method",
+					"name" : "logic_shapes",
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
@@ -67,9 +67,9 @@
 			[
 				{
 					"directoryIndex" : 1,
-					"id" : "least_squares_method::@56f3d99bb5b730d7f548",
-					"jsonFile" : "target-least_squares_method-Debug-03e9e6622b90da0f72a0.json",
-					"name" : "least_squares_method",
+					"id" : "logic_shapes::@33407603563ab09a15b4",
+					"jsonFile" : "target-logic_shapes-Debug-303d4c484e7b10dbf857.json",
+					"name" : "logic_shapes",
 					"projectIndex" : 1
 				}
 			]

@@ -7,7 +7,7 @@
 		],
 		"files" : 
 		[
-			"lsm/CMakeLists.txt"
+			"logic_elements/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -17,7 +17,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 19,
+				"line" : 44,
 				"parent" : 0
 			}
 		]
@@ -30,16 +30,16 @@
 			"destination" : "bin",
 			"paths" : 
 			[
-				"lsm/least_squares_method"
+				"logic_elements/logic_shapes"
 			],
-			"targetId" : "least_squares_method::@56f3d99bb5b730d7f548",
+			"targetId" : "logic_shapes::@33407603563ab09a15b4",
 			"targetIndex" : 0,
 			"type" : "target"
 		}
 	],
 	"paths" : 
 	{
-		"build" : "lsm",
-		"source" : "lsm"
+		"build" : "logic_elements",
+		"source" : "logic_elements"
 	}
 }

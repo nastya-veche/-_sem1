@@ -1,0 +1,1 @@
+/usr/bin/c++ -pedantic -Wall -Wextra -Wno-unused-parameter -Wno-cast-function-type -Wno-switch -g CMakeFiles/logic_elements.dir/main.cpp.o CMakeFiles/logic_elements.dir/logic.cpp.o -o logic_elements 
